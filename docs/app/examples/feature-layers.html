@@ -1,0 +1,8 @@
+<h2>Feature Layers</h2>
+<!-- add map to page and bind to scope map parameters -->
+<esri-map id="map" center="map.center" zoom="map.zoom" basemap="topo">
+    
+</esri-map>
+<div id="mapDiv"></div>
+<p><label><input type="checkbox" ng-model="map.showTrees" /> Show trees</label></p>
+<p>Lat: {{ map.center.lat | number:3 }}, Lng: {{ map.center.lng | number:3 }}, Zoom: {{map.zoom}}</p>

@@ -1,0 +1,7 @@
+<h2>Simple Map </h2>
+<!-- add map to page and bind to scope map parameters -->
+<esri-map id="map" center="map.center" zoom="map.zoom" basemap="topo">
+</esri-map>
+<!-- <p>Lat: {{ map.center.lat | number:3 }}, Lng: {{ map.center.lng | number:3 }}, Zoom: {{map.zoom}}</p> -->
+<button ng-repeat="bookmark in itemInfo.itemData.bookmarks" ng-click="goToBookmark(bookmark)">{{bookmark.name}}</button>
+

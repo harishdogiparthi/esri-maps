@@ -1,0 +1,34 @@
+{
+  "layerDefinition": {
+    "geometryType": "esriGeometryPoint",
+    "drawingInfo": {
+      "renderer": {
+        "type": "simple",
+        "symbol": {
+          "type": "esriPMS",
+          "url": "marker.png",
+          "contentType": "image/png",
+          "width": 30,
+          "height": 30
+        }
+      }
+    },
+    "fields": [{
+      "name": "id",
+      "alias": "ID",
+      "type": "esriFieldTypeOID"
+    }, {
+      "name": "title",
+      "alias": "Title",
+      "type": "esriFieldTypeString"
+    }]
+  },
+  "featureSet": {
+    "features": [
+      { "geometry": { "x": -8155495.379532158, "y": 5075380.311392084 },  "attributes": { "id": 1, "name": "New York" } },
+      { "geometry": { "x": -9805495.379532158, "y": 5075380.311392084 },  "attributes": { "id": 2, "name": "Chicago" } },
+      { "geometry": { "x": -13055495.379532158, "y": 3975380.311392084 },  "attributes": { "id": 3, "name": "Los Angeles" } }
+    ],
+    "geometryType": "esriGeometryPoint"
+  }
+}
